@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1146217035536392527}
   - component: {fileID: 5162867469450680710}
   m_Layer: 0
-  m_Name: enemy 0
+  m_Name: enemy 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7727c6dceef67924ebb1311a76219930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveConfig: {fileID: 11400000, guid: 1eb4d5ee8943cf3468faefbd6522f178, type: 2}
+  waveConfig: {fileID: 11400000, guid: 03623a86611ee9d479bfcd367dd00a3f, type: 2}
 --- !u!1 &6413475807845897920
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 2946338125276073248}
   - component: {fileID: 8207428045938327032}
   m_Layer: 0
-  m_Name: enemyGreen3
+  m_Name: enemyGreen1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,7 +119,7 @@ SpriteRenderer:
   m_SortingLayerID: -1597769667
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85c2f212da63d6a4bb487c5bfa59009e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56cd30fc32b35fa4d961afbc3ea848c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
