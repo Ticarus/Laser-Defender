@@ -366,6 +366,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8bd42c5e6f3f5a94291abfd080ffb7eb, type: 2}
   - {fileID: 11400000, guid: df8c6fbccc5046d43adf416bd5b7b9ac, type: 2}
   timeBetweenWaves: 2
+  isLooping: 0
 --- !u!4 &1279542844
 Transform:
   m_ObjectHideFlags: 0
@@ -389,14 +390,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2216348224325606775, guid: bf4870d6e21e4654b9119434e46df647, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2216348224325606775, guid: bf4870d6e21e4654b9119434e46df647, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1784803411
-      objectReference: {fileID: 0}
     - target: {fileID: 3085135148786610931, guid: bf4870d6e21e4654b9119434e46df647, type: 3}
       propertyPath: m_Name
       value: Player
@@ -407,7 +400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7997731953036072013, guid: bf4870d6e21e4654b9119434e46df647, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.28
+      value: -4.35
       objectReference: {fileID: 0}
     - target: {fileID: 7997731953036072013, guid: bf4870d6e21e4654b9119434e46df647, type: 3}
       propertyPath: m_LocalPosition.z
