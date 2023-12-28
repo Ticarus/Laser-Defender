@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: -6161087549582695402}
   - component: {fileID: 2857470244816286994}
   - component: {fileID: 5823170768045723149}
-  m_Layer: 0
+  - component: {fileID: 114155197479026416}
+  m_Layer: 7
   m_Name: enemy 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,6 +138,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 25
+--- !u!114 &114155197479026416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161357918946138830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd09c1fea0a5e140b4e8517cf8f90fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 3832234179948618138, guid: 594149e20bcbabf4e8f80ff038588e4e, type: 3}
+  projectileSpeed: 7
+  projectileLifeTime: 5
+  baseFiringRate: 1
+  useAI: 1
+  firingRateVariance: 0.5
+  minimumFiringRate: 0.1
+  isFiring: 0
 --- !u!1 &6413475807845897920
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2946338125276073248}
   - component: {fileID: 8207428045938327032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: enemyGreen2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +230,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1597769667
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 697cb4fde8e432549ab23eecfb957db7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
